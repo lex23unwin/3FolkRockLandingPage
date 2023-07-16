@@ -120,11 +120,23 @@ li {
     height: 200px;
     width: 200px;
     border-radius: 15px;
-
+    margin: 60px;
 }
 
 .p-second {
     text-align: center;
     margin-top: 10px;
     font-size: 18px;
+}
+
+/***********************************************************/
+
+.third-section {
+    background-color: #E5E7EB;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
