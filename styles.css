@@ -134,9 +134,26 @@ li {
 .third-section {
     background-color: #E5E7EB;
     height: 300px;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h-third {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-third {
+    font-size: 18px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    margin-right: 500px;
 }
