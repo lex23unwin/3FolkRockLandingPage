@@ -125,10 +125,16 @@ li {
     flex-wrap: wrap;
 }
 
+.row-of-blue-divs img {
+    width: 250px;
+    height:250px;
+    border-radius: 5px;
+}
+
 .box-blue {
     border: 3px solid #3882F6;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     border-radius: 15px;
     margin: 60px;
 }
@@ -208,7 +214,7 @@ li {
 }
 
 .last-p {
-    margin-left: 180px;
+    margin-left: 190px;
     color: white;
 
 }
