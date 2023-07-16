@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.first-section {
+    background-color: #1F2937;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+ul { 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.navbar-left, .navbar-right {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center
+}
+
+li {
+    margin-left : 17.5px;
+    margin-right: 17.5px;
+}
+
+.content-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%; /*50% of container*/
+}
+
+.content-image {
+    margin: 50px;
+}
+
+.content-paragraph {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content-button {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    margin-top: 10px;
+}
+
+/***********************************************************/
+
+.second-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937; 
+    text-align: center;
+}
+
+.row-of-blue-divs{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin: 100px;
+    flex-wrap: wrap;
+}
+
+.box-blue {
+    border: 3px solid #3882F6;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+
+}
+
+.p-second {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
